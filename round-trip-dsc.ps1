@@ -9,7 +9,7 @@
 # #############################################################################
 
 #region Prepare the environment; log into Azure
-Set-Location -Path 'C:\itt'
+Set-Location -Path 'C:\Users\Tim\desktop\repo\ittransformation2017'
 Login-AzureRmAccount
 Set-AzureRmContext -SubscriptionName 'tim-2017'
 #endregion
